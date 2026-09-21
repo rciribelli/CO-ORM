@@ -142,17 +142,10 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 12px;
 }
 .site-header img {
-  width: 52px;
-  height: 52px;
-}
-.site-header span {
-  color: var(--branco-perolado);
-  font-family: var(--fonte-titulo);
-  font-size: 1.1rem;
-  letter-spacing: 0.03em;
+  width: 92px;
+  height: 92px;
 }
 
 /* ---------- HERO ---------- */
@@ -184,15 +177,10 @@ p {
 .hero p.lead {
   color: var(--bege-suave);
   font-family: var(--fonte-subtitulo);
+  font-weight: 700;
   font-size: 1.15rem;
   max-width: 620px;
   margin: 0 auto 12px;
-}
-.hero p.small-note {
-  color: var(--bege-suave);
-  font-family: var(--fonte-apoio);
-  font-size: 0.95rem;
-  opacity: 0.9;
 }
 
 /* Box de destaque - curso de preparação */
